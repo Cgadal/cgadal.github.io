@@ -5,32 +5,45 @@ import Main from '../layouts/Main';
 
 import Education from '../components/Resume/Education';
 import Experience from '../components/Resume/Experience';
-import Skills from '../components/Resume/Skills';
-import Courses from '../components/Resume/Courses';
 import References from '../components/Resume/References';
+// import Prizes from '../components/Resume/Prizes';
+import Grants from '../components/Resume/Grants';
+// import Inviteds from '../components/Resume/Invited';
+// import Contributeds from '../components/Resume/Contributed';
 
-import courses from '../data/resume/courses';
 import degrees from '../data/resume/degrees';
 import positions from '../data/resume/positions';
-import { skills, categories } from '../data/resume/skills';
+// import prizes from '../data/resume/prizes';
+import grants from '../data/resume/grants';
+// import talks from '../data/resume/invited';
+// import talks2 from '../data/resume/contributed';
+
+const { PUBLIC_URL } = process.env; // set automatically from package.json:homepage
 
 const sections = [
-  'Education',
-  'Experience',
-  'Skills',
-  'Courses',
+  'Research -',
+  'Education -',
+  'Research Grants -',
+  // 'Prizes & Awards -',
+  // 'Invited contributions -',
+  // 'Contributed Talks -',
+  // 'Skills',
+  // 'Courses',
   'References',
 ];
 
 const Resume = () => (
   <Main
-    title="Resume"
-    description="Michael D'Angelo's Resume. Arthena, Matroid, YC, Skeptical Investments, Stanford ICME, Planet Labs, and Facebook."
+    title="CV"
+    description="Lisa Bugnet's Resume"
   >
     <article className="post" id="resume">
       <header>
         <div className="title">
-          <h2 data-testid="heading"><Link to="resume">Resume</Link></h2>
+          <h2 data-testid="heading"><Link to="resume">CV</Link></h2>
+          {/* <a href="./directory/yourfile.pdf" download="newfilename">Download the pdf</a> */}
+          <a href={`${PUBLIC_URL}/CV_CyrilGadal_August2022.pdf`} className="download" download="CV_CyrilGadal_August2022">DOWNLOAD FULL CV</a>
+          <p>  </p>
           <div className="link-container">
             {sections.map((sec) => (
               <h4 key={sec}>
@@ -40,11 +53,17 @@ const Resume = () => (
 
         </div>
       </header>
-      <Education data={degrees} />
       <Experience data={positions} />
-      <Skills skills={skills} categories={categories} />
-      <Courses data={courses} />
+      <Education data={degrees} />
+      <Grants data={grants} />
+      {/* <Prizes data={prizes} /> */}
+      {/* <Inviteds data={talks} /> */}
+      {/* <Contributeds data={talks2} /> */}
+      {/* <Courses data={courses} />  */}
       <References />
+
+      {/* <Skills skills={skills} categories={categories} /> */}
+      {/* <Courses data={courses} /> */}
 
     </article>
   </Main>
