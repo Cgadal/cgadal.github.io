@@ -1,47 +1,48 @@
 // TODO Add a couple lines about each project
 const data = [
   {
-    title: 'Nearest Dollar',
-    subtitle: '2015 BVP Hackathon',
-    image: '/images/projects/nearestdollar.jpg',
-    date: '2015-11-20',
-    desc:
-      'Built for a social impact hackathon. '
-      + 'NearestDollar connected to your bank accounts, credit cards, '
-      + 'or debit cards and rounded up your purchases to donate the balance to '
-      + 'the charity of your choice.',
+    title: 'From a hydrodynamic instability to dune patterns building sand seas.',
+    image: '/images/projects/DunePanorama_small.jpg',
+    date: '',
+    desc: 'Dunes gathering at the bottom of a small mountain in the Taklamacan desert, in China [@ClémentNarteau]',
+    content: 'Sand seas are easily recognisable across our solar system thanks'
+    + ' to the patterns resulting form the self-organization of the dunes that compose them.'
+    + ' However, a quantitative descriptions of how these patterns emerge and evolve is only available'
+    + ' in the simplified situations (constant unidirectional wind, homogenous spatial conditions, etc ..).'
+    + ' We therefore aim to integrate to these theoretical descriptions the influence of various external parameters,'
+    + ' such as the wind seasonal variations or the conditions at the edge of the dune field'
+    + ' By doing so, reliable interpretation of field data in many dfferent situations can be achieved,'
+    + ' leading for exemple to a better prediction of the evolution of dunes and sand seas,'
+    + ' but also to the inference of environmental parameters (wind regime, sediment properties)'
+    + ' from dune observations in satellite images in places where direct are not feasible, such as Mars or Vénus.',
+    points: [
+      'Theoretical description of dune morphodynamics (instabilities, non-linearities)',
+      'Numerical work and experiments',
+      'Brindging the gap between theory/lab work and field data (elevation, meteorological)',
+    ],
   },
   {
-    title: 'Harvest',
-    subtitle: 'Won 3rd. place in 2015 Techcrunch Disrupt SF Hackathon',
-    link: 'https://devpost.com/software/harvest',
-    image: '/images/projects/harvest.jpg',
-    date: '2015-09-20',
-    desc:
-      'Won ~ $7000 in prizes for an advanced, low cost monitoring solution '
-      + 'for crops. Harvest was designed to catch irrigation leaks, overwatering, '
-      + 'and nutrient deficiencies at an affordable price for the developing world.',
-  },
-  {
-    title: 'Space Potato',
-    subtitle: 'A kickstarter funded potato powered weather balloon.',
-    link: 'http://www.spacepotato.org',
-    image: '/images/projects/spacepotato.jpg',
-    date: '2015-06-28',
-    desc:
-      'Launched a potato battery powered weather balloon with two cameras '
-      + 'and gps transponder. Resulting photos were published in a coffee table book. '
-      + 'You can email me for a copy.',
-  },
-  {
-    title: 'Cat Detector',
-    subtitle: 'A convolutional neural network to classify cats! (and dogs)',
-    image: '/images/projects/catdetector.jpg',
-    date: '2015-05-15',
-    desc:
-      'Trained a convolutional neural network to classify between ~ 80 cats breeds. '
-      + 'Over 60,000 cats were classified before server bills made the project too expensive '
-      + 'to continue hosting.',
+    title: 'Particle-ladden gravity currents.',
+    image: '/images/projects/avalanche_crop.jpg',
+    date: '',
+    desc: 'Powder snow avalanche at the Zinal ski station, in Switzerland.',
+    content: 'Particle-ladden gravity currents, or turbidity currents, are currents'
+    + ' driven by a density difference induced by the presence of particles in'
+    + ' suspension (sand, snow, dust). They exist in various environments,'
+    + ' such as in oceans, where sand mixes with water to generate currents able'
+    + ' to destroy submarine infrastuctures, or near volcanos, where the hot ashes realeased'
+    + ' during eruptions transform into deadly pyroclastic currents.'
+    + ' Their dynamics involves interactions across a whole range of spatial and temporal scales,'
+    + ' from between the particles and the turbulent structures of the flow to between the current'
+    + ' itself and the underlying landscape topography.'
+    + ' In the lab, we study simplified situations, trying to isolate the impact of each process '
+    + ' on the current dynamics. This helps creating models (i.e shallow-water), that can be further used'
+    + ' to asses the destructive poential in real/natural situations.',
+    points: [
+      'Shallow water modelling',
+      'Experimental work',
+      'Ultrasound measurements',
+    ],
   },
 ];
 

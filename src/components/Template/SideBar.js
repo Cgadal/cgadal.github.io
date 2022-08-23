@@ -13,7 +13,7 @@ const SideBar = () => (
       </Link>
       <header>
         <h2>Cyril Gadal</h2>
-        <p>Postdoctoral researcher,</p>
+        <p>Postdoctoral researcher</p>
         <b style={{ text: 'lowercase', fontSize: '20px', color: '#1E90FF' }}>
           Contact: <a href="mailto:cyril.gadal@imft.fr">cyril.gadal@imft.fr</a>
         </b>
@@ -22,7 +22,7 @@ const SideBar = () => (
 
     <section id="footer">
       <ContactIcons />
-      <p className="copyright">&copy; Cyril Gadal <Link to="/">mldangelo.com</Link>.</p>
+      <p className="copyright">&copy; Cyril Gadal <Link to="/">cgadal.github.io</Link>.</p>
     </section>
   </section>
 );
