@@ -24,7 +24,7 @@ const Index = () => (
         <a href="https://www.imft.fr/"> Institut de Mécanique des Fluides de Toulouse </a>.
       </p>
       <p> I obtained my PhD in Geophysics in 2020
-        from <a href="https://u-paris.fr/en/">University of Paris</a> and
+        from <a href="https://u-paris.fr/en/">Université Paris Cité</a> and
         <a href="https://www.ipgp.fr/fr"> Institut de physique du globe de Paris </a>,
         and my Physics (fluid mechanics) and Earth Sciences Master degrees in 2017 from
         the <a href="https://www.ens.psl.eu/en">Ecole Normale Supérieure of Paris</a>.
