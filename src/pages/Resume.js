@@ -18,8 +18,6 @@ import grants from '../data/resume/grants';
 // import talks from '../data/resume/invited';
 // import talks2 from '../data/resume/contributed';
 
-const { PUBLIC_URL } = process.env; // set automatically from package.json:homepage
-
 const sections = [
   'Research -',
   'Education -',
