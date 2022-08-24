@@ -22,7 +22,7 @@ const Publications = () => (
       <header>
         <div className="title">
           <h2 data-testid="heading"><Link to="resume">PUBLICATIONS</Link></h2>
-          <a href={`${PUBLIC_URL}/CV_CyrilGadal_August2022.pdf`} className="download" download="CV_CyrilGadal_August2022">DOWNLOAD FULL PUBLICATION LIST</a>
+          // <a href={`${PUBLIC_URL}/CV_CyrilGadal_August2022.pdf`} className="download" download="CV_CyrilGadal_August2022">DOWNLOAD FULL PUBLICATION LIST</a>
           <p>  </p>
         </div>
       </header>
