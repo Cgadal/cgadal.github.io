@@ -3,10 +3,11 @@ import { Link } from 'react-router-dom';
 
 import Main from '../layouts/Main';
 
+const { PUBLIC_URL } = process.env; // set automatically from package.json:homepage
+
 const Index = () => (
   <Main
-    description={"Michael D'Angelo's personal website. New York based Stanford ICME graduate, "
-    + 'co-founder and CTO of Arthena, and YC Alumni.'}
+    description={"Cyril Gadal's website."}
   >
     <article className="post" id="index">
       <header>
@@ -15,10 +16,11 @@ const Index = () => (
         </div>
       </header>
       <p>I am an Geophysicist, specialized in fluid dynamics and granular materials.
-        I use laboratory experiments and numerical simulations to understand the dynamics
+        I use a combination of laboratory experiments, numerical simulations and field
+        studies to understand the dynamics
         of complex natural systems involving grains and/or fluids, such as dunes, turbidity
         currents or planetary impact craters.
-        I am currently a postodoctoral researcher at the
+        Currently, I am  a postodoctoral researcher at the
         <a href="https://www.imft.fr/"> Institut de Mécanique des Fluides de Toulouse </a>.
       </p>
       <p> I obtained my PhD in Geophysics in 2020
@@ -32,6 +34,7 @@ const Index = () => (
           {!window.location.pathname.includes('/projects') ? <Link to="/projects" className="button">Learn More</Link> : <Link to="/about" className="button">About Me</Link>}
         </li>
       </ul>
+      <video src={`${PUBLIC_URL}/videos/output.mp4`} width="100%" controls="controls" autoPlay="true" />
     </article>
   </Main>
 );

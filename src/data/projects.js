@@ -36,7 +36,7 @@ const data = [
     + ' from between the particles and the turbulent structures of the flow to between the current'
     + ' itself and the underlying landscape topography.'
     + ' In the lab, we study simplified situations, trying to isolate the impact of each process '
-    + ' on the current dynamics. This helps creating models (i.e shallow-water), that can be further used'
+    + ' on the current dynamics. This helps creating models (i.e depth-averaged), that can be further used'
     + ' to asses the destructive poential in real/natural situations.',
     points: [
       'Shallow water modelling',
