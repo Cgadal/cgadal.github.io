@@ -18,8 +18,6 @@ import grants from '../data/resume/grants';
 // import talks from '../data/resume/invited';
 // import talks2 from '../data/resume/contributed';
 
-// const { PUBLIC_URL } = process.env; // set automatically from package.json:homepage
-
 const sections = [
   'Research -',
   'Education -',
@@ -41,6 +39,7 @@ const Resume = () => (
       <header>
         <div className="title">
           <h2 data-testid="heading"><Link to="resume">CV</Link></h2>
+          {/* <a href="./directory/yourfile.pdf" download="newfilename">Download the pdf</a> */}
           <p>  </p>
           <div className="link-container">
             {sections.map((sec) => (

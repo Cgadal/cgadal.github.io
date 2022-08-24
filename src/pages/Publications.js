@@ -11,8 +11,6 @@ import articlesfirst from '../data/publications/first';
 import majorcontributions from '../data/publications/major';
 import minorcontributions from '../data/publications/minor';
 
-// const { PUBLIC_URL } = process.env; // set automatically from package.json:homepage
-
 const Publications = () => (
   <Main
     title="Publications"
