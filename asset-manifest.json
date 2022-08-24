@@ -1,0 +1,31 @@
+{
+  "files": {
+    "main.css": "/personal-site/static/css/main.967ce1cf.css",
+    "main.js": "/personal-site/static/js/main.9b0f104c.js",
+    "static/js/562.08fc9895.chunk.js": "/personal-site/static/js/562.08fc9895.chunk.js",
+    "static/js/478.4f3a8f30.chunk.js": "/personal-site/static/js/478.4f3a8f30.chunk.js",
+    "static/js/922.a65afe4f.chunk.js": "/personal-site/static/js/922.a65afe4f.chunk.js",
+    "static/js/161.0ba25fea.chunk.js": "/personal-site/static/js/161.0ba25fea.chunk.js",
+    "static/js/844.65e9dec8.chunk.js": "/personal-site/static/js/844.65e9dec8.chunk.js",
+    "static/js/919.e3641d2d.chunk.js": "/personal-site/static/js/919.e3641d2d.chunk.js",
+    "static/js/209.664e29c4.chunk.js": "/personal-site/static/js/209.664e29c4.chunk.js",
+    "static/media/academicons.svg": "/personal-site/static/media/academicons.c2f62710e847070d5e6c.svg",
+    "static/media/academicons.woff": "/personal-site/static/media/academicons.c8b8bfc0fed119707316.woff",
+    "static/media/academicons.eot": "/personal-site/static/media/academicons.e8713c3132628422b2e5.eot",
+    "static/media/academicons.ttf": "/personal-site/static/media/academicons.4f700bbf66a5f360ce35.ttf",
+    "index.html": "/personal-site/index.html",
+    "main.967ce1cf.css.map": "/personal-site/static/css/main.967ce1cf.css.map",
+    "main.9b0f104c.js.map": "/personal-site/static/js/main.9b0f104c.js.map",
+    "562.08fc9895.chunk.js.map": "/personal-site/static/js/562.08fc9895.chunk.js.map",
+    "478.4f3a8f30.chunk.js.map": "/personal-site/static/js/478.4f3a8f30.chunk.js.map",
+    "922.a65afe4f.chunk.js.map": "/personal-site/static/js/922.a65afe4f.chunk.js.map",
+    "161.0ba25fea.chunk.js.map": "/personal-site/static/js/161.0ba25fea.chunk.js.map",
+    "844.65e9dec8.chunk.js.map": "/personal-site/static/js/844.65e9dec8.chunk.js.map",
+    "919.e3641d2d.chunk.js.map": "/personal-site/static/js/919.e3641d2d.chunk.js.map",
+    "209.664e29c4.chunk.js.map": "/personal-site/static/js/209.664e29c4.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.967ce1cf.css",
+    "static/js/main.9b0f104c.js"
+  ]
+}
