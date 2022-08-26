@@ -9,7 +9,7 @@ const data = [
     + ' to the patterns resulting form the self-organization of the dunes that compose them.'
     + ' However, a quantitative descriptions of how these patterns emerge and evolve is only available'
     + ' in the simplified situations (constant unidirectional wind, homogenous spatial conditions, etc ..).'
-    + ' We therefore aim to integrate to these theoretical descriptions the influence of various external parameters,'
+    + ' We therefore aim to improve these theoretical descriptions by integrating the influence of various external parameters,'
     + ' such as the wind seasonal variations or the conditions at the edge of the dune field'
     + ' By doing so, reliable interpretation of field data in many dfferent situations can be achieved,'
     + ' leading for exemple to a better prediction of the evolution of dunes and sand seas,'
@@ -28,16 +28,16 @@ const data = [
     desc: 'Powder snow avalanche at the Zinal ski station, in Switzerland.',
     content: 'Particle-ladden gravity currents, or turbidity currents, are currents'
     + ' driven by a density difference induced by the presence of particles in'
-    + ' suspension (sand, snow, dust). They exist in various environments,'
+    + ' suspension (e.g. sand, snow, dust). They exist in various environments,'
     + ' such as in oceans, where sand mixes with water to generate currents able'
     + ' to destroy submarine infrastuctures, or near volcanos, where the hot ashes realeased'
     + ' during eruptions transform into deadly pyroclastic currents.'
     + ' Their dynamics involves interactions across a whole range of spatial and temporal scales,'
-    + ' from between the particles and the turbulent structures of the flow to between the current'
+    + ' from between the particles and the flow turbulent structures to between the current'
     + ' itself and the underlying landscape topography.'
     + ' In the lab, we study simplified situations, trying to isolate the impact of each process '
     + ' on the current dynamics. This helps creating models (i.e depth-averaged), that can be further used'
-    + ' to asses the destructive poential in real/natural situations.',
+    + ' to assess destructive potential of real/natural situations.',
     points: [
       'Shallow water modelling',
       'Experimental work',
