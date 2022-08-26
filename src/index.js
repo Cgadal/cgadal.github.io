@@ -1,7 +1,6 @@
 import React from 'react';
 import { hydrate, render } from 'react-dom';
 import App from './App';
-import 'academicons/css/academicons.min.css';
 
 // See https://reactjs.org/docs/strict-mode.html
 const StrictApp = () => (

@@ -34,7 +34,7 @@ const Index = () => (
           {!window.location.pathname.includes('/projects') ? <Link to="/projects" className="button">Learn More</Link> : <Link to="/about" className="button">About Me</Link>}
         </li>
       </ul>
-      <video src={`${PUBLIC_URL}/videos/output.mp4`} width="100%" controls="controls" autoPlay="true" />
+      <video src={`${PUBLIC_URL}/videos/stationnary_turbidity_current.mp4`} width="100%" controls="controls" autoPlay />
     </article>
   </Main>
 );
