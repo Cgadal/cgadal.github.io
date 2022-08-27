@@ -6,9 +6,9 @@
 @import 'lightgallery/scss/lg-video.scss';
 
 
-h1,
-p {
+h1, p {
   font-family: Lato;
+  color: Gray;
 }
 body {
   margin: 0;
