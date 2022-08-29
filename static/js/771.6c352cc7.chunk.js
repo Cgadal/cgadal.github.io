@@ -1,2 +1,0 @@
-"use strict";(self.webpackChunkpersonal_site=self.webpackChunkpersonal_site||[]).push([[771],{5771:function(e,l,s){s.r(l);s(2791);var r=s(1523),i=s(6842),t=s(184);l.default=function(){return(0,t.jsx)(i.Z,{title:"Gallery",description:"Gallery",children:(0,t.jsx)("article",{className:"post",id:"gallery",children:(0,t.jsx)("header",{children:(0,t.jsx)("div",{className:"title",children:(0,t.jsx)("h2",{"data-testid":"heading",children:(0,t.jsx)(r.rU,{to:"/projects",children:"Gallery"})})})})})})}}}]);
-//# sourceMappingURL=771.6c352cc7.chunk.js.map
