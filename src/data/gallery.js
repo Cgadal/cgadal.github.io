@@ -3,7 +3,7 @@ const data = [
     src: '/videos/impact_crater.mp4',
     type: 'video/mp4',
     thumb: '/videos/thumbnails/impact_crater.jpg',
-    description: '<h1>Impact of a yield stress fluid ball into a pool of the nature.</h1>',
+    description: '<h1>Impact of a yield stress fluid ball into a pool of the same fluid.</h1>',
     _id: 'id_1',
   },
   {
