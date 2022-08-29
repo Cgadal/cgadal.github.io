@@ -20,7 +20,7 @@ const Index = () => (
         studies to understand the dynamics
         of complex natural systems involving grains and/or fluids, such as dunes, turbidity
         currents or planetary impact craters.
-        Currently, I am  a postodoctoral researcher at the
+        Currently, I am a postdoctoral researcher at the
         <a href="https://www.imft.fr/"> Institut de Mécanique des Fluides de Toulouse </a>.
       </p>
       <p> I obtained my PhD in Geophysics in 2020
