@@ -17,6 +17,10 @@ const routes = [
     path: '/publications',
   },
   {
+    label: 'Gallery',
+    path: '/gallery',
+  },
+  {
     label: 'Contact',
     path: '/contact',
   },
