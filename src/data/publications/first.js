@@ -4,7 +4,9 @@ const articlesfirst = [
     title: 'Local wind regime induced by giant linear dunes: comparison of ERA5-Land reanalysis with surface measurements.',
     date: 2022,
     author_list: 'Gadal, C., Delorme, P., Narteau, C., Wiggs, F.S.W., Baddock, M., Nield, J.M. and Claudin, P.',
-    journal: 'accepted for publication in Boundary Layer Meteorology',
+    journal: 'Boundary Layer Meteorology',
+    ref: 'published online',
+    doi: '10.1007/s10546-022-00733-6'
   },
   {
     title: 'Spatial and Temporal Development of Incipient Dunes.',
