@@ -6,7 +6,7 @@ const articlesfirst = [
     author_list: 'Gadal, C., Delorme, P., Narteau, C., Wiggs, F.S.W., Baddock, M., Nield, J.M. and Claudin, P.',
     journal: 'Boundary Layer Meteorology',
     ref: 'published online',
-    doi: '10.1007/s10546-022-00733-6'
+    doi: '10.1007/s10546-022-00733-6',
   },
   {
     title: 'Spatial and Temporal Development of Incipient Dunes.',
