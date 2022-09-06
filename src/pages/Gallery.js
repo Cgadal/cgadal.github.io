@@ -36,7 +36,7 @@ const Gallery = () => (
                 data-sub-html={job.description}
               >
                 <img
-                  style={{ maxWidth: '400px' }}
+                  style={{ maxWidth: '100%', width: '250px' }}
                   className="img-responsive"
                   alt=""
                   src={`${PUBLIC_URL}${job.thumb}`}
