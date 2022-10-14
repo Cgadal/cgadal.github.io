@@ -5,7 +5,7 @@ const articlesfirst = [
     date: 2022,
     author_list: 'Gadal, C., Delorme, P., Narteau, C., Wiggs, F.S.W., Baddock, M., Nield, J.M. and Claudin, P.',
     journal: 'Boundary Layer Meteorology',
-    ref: 'published online',
+    ref: '185, 309-332',
     doi: '10.1007/s10546-022-00733-6',
   },
   {

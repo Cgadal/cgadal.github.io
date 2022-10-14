@@ -6,10 +6,12 @@ import Main from '../layouts/Main';
 import FirstAuthor from '../components/Publications/FirstAuthor';
 import MajorContributions from '../components/Publications/MajorContributions';
 import MinorContributions from '../components/Publications/MinorContributions';
+import ThesisTemplate from '../components/Publications/Thesis';
 
 import articlesfirst from '../data/publications/first';
 import majorcontributions from '../data/publications/major';
 import minorcontributions from '../data/publications/minor';
+import thesis from '../data/publications/thesis';
 
 const Publications = () => (
   <Main
@@ -26,7 +28,7 @@ const Publications = () => (
       <FirstAuthor data={articlesfirst} />
       <MajorContributions data={majorcontributions} />
       <MinorContributions data={minorcontributions} />
-
+      <ThesisTemplate data={thesis} />
     </article>
   </Main>
 );
