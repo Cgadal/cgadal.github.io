@@ -21,6 +21,9 @@ const Gallery = () => (
       <header>
         <div className="title">
           <h2 data-testid="heading"><Link to="/projects">Gallery</Link></h2>
+          <p>
+            Videos and photos linked to my research (ask for permission before use).
+          </p>
         </div>
       </header>
       <LightGallery plugins={[lgZoom, lgVideo, lgThumbnail]} mode="lg-fade">
