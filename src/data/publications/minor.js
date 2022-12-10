@@ -9,14 +9,6 @@ const minorcontributions = [
     doi: '10.1029/2021GL097636',
   },
   {
-    title: 'Direct validation of dune instability theory.',
-    date: 2021,
-    author_list: 'Lü, P., Narteau, C., Dong, Z., Clauding, P., Rodriguez, S., An, Z., Fernandez-Cascales, L., Gadal, C. and Courrech du Pont, C.',
-    journal: 'PNAS',
-    ref: '118, e2024105118',
-    doi: '10.1073/pnas.2024105118',
-  },
-  {
     title: 'Elongation and stability of a linear dune.',
     date: 2019,
     author_list: 'Rozier, O., Narteau, C., Gadal, C., Claudin, P. and Courrech du Pont, S.',

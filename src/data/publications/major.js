@@ -9,6 +9,14 @@ const majorcontributions = [
     doi: '10.1029/2021GL097342',
   },
   {
+    title: 'Direct validation of dune instability theory.',
+    date: 2021,
+    author_list: 'Lü, P., Narteau, C., Dong, Z., Clauding, P., Rodriguez, S., An, Z., Fernandez-Cascales, L., Gadal, C. and Courrech du Pont, C.',
+    journal: 'PNAS',
+    ref: '118, e2024105118',
+    doi: '10.1073/pnas.2024105118',
+  },
+  {
     title: 'Migration of Reversing Dunes Against the Sand Flow Path as a Singular Expression of the Speed‐Up Effect.',
     date: 2021,
     author_list: 'Gao, X., Narteau, C., and Gadal, C.',
