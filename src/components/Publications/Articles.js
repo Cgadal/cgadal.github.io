@@ -3,22 +3,26 @@ import PropTypes from 'prop-types';
 
 import Publication from './Publication/Publication';
 
-const FirstAuthor = ({ data }) => (
+const Articles = ({ data }) => (
   <div className="education">
     <div className="link-to" id="publications -" />
     <div className="title">
-      <h3 style={{ textAlign: 'center' }}>First Author</h3>
+      <h3 style={{ textAlign: 'center' }}>Articles</h3>
     </div>
-    {data.map((job) => (
-      <Publication
-        data={job}
-        key={job.company}
-      />
-    ))}
+    <ol reversed>
+      {data.map((job) => (
+        <li>
+          <Publication
+            data={job}
+            key={job.company}
+          />
+        </li>
+      ))}
+    </ol>
   </div>
 );
 
-FirstAuthor.propTypes = {
+Articles.propTypes = {
   data: PropTypes.arrayOf(PropTypes.shape({
     title: PropTypes.string,
     date: PropTypes.number,
@@ -29,8 +33,8 @@ FirstAuthor.propTypes = {
   })),
 };
 
-FirstAuthor.defaultProps = {
+Articles.defaultProps = {
   data: [],
 };
 
-export default FirstAuthor;
+export default Articles;

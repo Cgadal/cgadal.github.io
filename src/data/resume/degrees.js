@@ -8,19 +8,19 @@ const degrees = [
   },
   {
     school: 'Ecole Normale Supérieure de Paris (ENS)',
-    degree: 'Master degree in Physics (fluid dynamics)',
+    degree: "Master's degree in Physics (fluid dynamics)",
     link: 'https://www.phys.ens.fr/spip.php?rubrique284&lang=en',
     year: '2016 - 2017',
   },
   {
     school: 'Ecole Normale Supérieure de Paris (ENS) and Université Paris Cité',
-    degree: 'Master degree in Earth Sciences',
+    degree: "Master's degree in Earth Sciences",
     link: 'https://www.ens.psl.eu/en',
     year: '2015 - 2017',
   },
   {
     school: 'Ecole Normale Supérieure de Paris (ENS) and Sorbonne University',
-    degree: 'Bachelor degree in Earth Sciences',
+    degree: "Bachelor's degree in Earth Sciences",
     link: 'https://www.ens.psl.eu/en',
     year: '2014 - 2015',
   },

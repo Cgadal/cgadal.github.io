@@ -3,15 +3,13 @@ import { Link } from 'react-router-dom';
 
 import Main from '../layouts/Main';
 
-import FirstAuthor from '../components/Publications/FirstAuthor';
-import MajorContributions from '../components/Publications/MajorContributions';
-import MinorContributions from '../components/Publications/MinorContributions';
 import ThesisTemplate from '../components/Publications/Thesis';
+import Articles from '../components/Publications/Articles';
+import Datasets from '../components/Publications/Datasets';
 
-import articlesfirst from '../data/publications/first';
-import majorcontributions from '../data/publications/major';
-import minorcontributions from '../data/publications/minor';
 import thesis from '../data/publications/thesis';
+import articles from '../data/publications/articles';
+import datasets from '../data/publications/datasets';
 
 const Publications = () => (
   <Main
@@ -25,9 +23,8 @@ const Publications = () => (
           <p>  </p>
         </div>
       </header>
-      <FirstAuthor data={articlesfirst} />
-      <MajorContributions data={majorcontributions} />
-      <MinorContributions data={minorcontributions} />
+      <Articles data={articles} />
+      <Datasets data={datasets} />
       <ThesisTemplate data={thesis} />
     </article>
   </Main>
