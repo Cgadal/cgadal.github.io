@@ -16,7 +16,7 @@ const Index = () => (
         </div>
       </header>
       <p>I am a geophysicist, specialized in fluid dynamics and granular materials.
-        I use a combination of laboratory experiments, numerical simulations and field
+        I use a combination of theory, laboratory experiments, numerical simulations and field
         studies to understand the dynamics
         of complex natural systems involving grains and/or fluids, such as dunes, turbidity
         currents or planetary impact craters.
