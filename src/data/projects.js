@@ -5,16 +5,7 @@ const data = [
     image: '/images/projects/DunePanorama_small.jpg',
     date: '',
     desc: 'Dunes gathering at the bottom of a small mountain in the Taklamacan desert, in China [@ClémentNarteau]',
-    content: 'Sand seas are easily recognisable across our solar system thanks'
-      + ' to the patterns resulting form the self-organization of the dunes that compose them.'
-      + ' However, a quantitative descriptions of how these patterns emerge and evolve is only available'
-      + ' in the simplified situations (constant unidirectional wind, homogenous spatial conditions, etc ..).'
-      + ' We therefore aim to improve these theoretical descriptions by integrating the influence of various external parameters,'
-      + ' such as the wind seasonal variations or the conditions at the edge of the dune field'
-      + ' By doing so, reliable interpretation of field data in many dfferent situations can be achieved,'
-      + ' leading for exemple to a better prediction of the evolution of dunes and sand seas,'
-      + ' but also to the inference of environmental parameters (wind regime, sediment properties)'
-      + ' from dune observations in satellite images in places where direct are not feasible, such as Mars or Vénus.',
+    content: 'Sand seas are easily recognizable in our solar system thanks to the patterns resulting from the self-organization of the dunes that compose them. However, a quantitative description of the emergence and evolution of these patterns is only available in simplified situations (constant unidirectional wind, homogeneous spatial conditions, etc.). We therefore seek to improve these theoretical descriptions by integrating the influence of various external parameters, such as seasonal wind variations or dune field edge conditions. By doing so, a reliable interpretation of field data in many different situations can be achieved, leading for example to a better prediction of the evolution of dunes and sand seas, but also to the deduction of environmental parameters (wind regime, sediment properties) from observations of dunes on satellite images in places where direct observations are not possible, like Mars or Venus.',
     points: [
       'Theoretical description of dune morphodynamics (instabilities, non-linearities)',
       'Numerical work and experiments',
@@ -26,22 +17,11 @@ const data = [
     image: '/images/projects/avalanche_crop.jpg',
     date: '',
     desc: 'Powder snow avalanche at the Zinal ski station, in Switzerland.',
-    content: 'Particle-ladden gravity currents, or turbidity currents, are currents'
-      + ' driven by a density difference induced by the presence of particles in'
-      + ' suspension (e.g. sand, snow, dust). They exist in various environments,'
-      + ' such as in oceans, where sand mixes with water to generate currents able'
-      + ' to destroy submarine infrastuctures, or near volcanos, where the hot ashes realeased'
-      + ' during eruptions transform into deadly pyroclastic currents.'
-      + ' Their dynamics involves interactions across a whole range of spatial and temporal scales,'
-      + ' from between the particles and the flow turbulent structures to between the current'
-      + ' itself and the underlying landscape topography.'
-      + ' In the lab, we study simplified situations, trying to isolate the impact of each process '
-      + ' on the current dynamics. This helps creating models (i.e depth-averaged), that can be further used'
-      + ' to assess destructive potential of real/natural situations.',
+    content: 'Particle-laden gravity currents, or turbidity currents, are currents driven by a density difference induced by the presence of suspended particles (e.g. sand, snow, dust). They exist in a variety of environments, such as in the oceans, where sand mixes with water to generate currents capable of destroying underwater infrastructure, or near volcanoes, where hot ash released during eruptions becomes deadly pyroclastic currents. Their dynamics involve interactions on a range of spatial and temporal scales, from the particles to the turbulent structures of the flow, to the current itself and the topography of the underlying landscape.  In the laboratory, we study simplified situations, trying to isolate the impact of each process on the current dynamics. This allows us to create models (i.e. depth averages), which can then be used to assess the destructive potential in real/natural situations.',
     points: [
+      'Experimental work, Ultrasound measurements',
       'Shallow water modelling',
-      'Experimental work',
-      'Ultrasound measurements',
+      'Focus on the influence of particle buoyancy',
     ],
   },
 ];
