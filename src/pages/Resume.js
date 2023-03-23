@@ -41,7 +41,7 @@ const Resume = () => (
       <header>
         <div className="title">
           <h2 data-testid="heading"><Link to="resume">CV</Link></h2>
-          <a href={`${PUBLIC_URL}/documents/CV_CyrilGadal_latest.pdf`} className="download" download="CV_Cyril_Gadal">DOWNLOAD FULL CV</a>
+          <a href={`${PUBLIC_URL}/documents/CV_Cyril_Gadal.pdf`} className="download" download="CV_Cyril_Gadal">DOWNLOAD FULL CV</a>
           <p>  </p>
           <div className="link-container">
             {sections.map((sec) => (
