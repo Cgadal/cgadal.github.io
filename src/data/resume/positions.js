@@ -7,13 +7,14 @@ const positions = [
     supervision: 'In collaboration with Dr. M. Mercier and Dr. L. Lacaze',
     points: [
       'Experimental study of turbidity currents in various configurations',
+      'Collaboration IMFT/LEGI/LEMTA/INRAE (ANR PALAGRAM)',
     ],
   },
   {
     company: 'DAMTP, University of Cambridge',
     position: 'Visiting Student',
     link: 'https://www.damtp.cam.ac.uk/',
-    daterange: 'June 2019 - July 2029',
+    daterange: 'June 2019 - July 2019',
     supervision: 'Under the supervision of Prof. J.A. Neufeld, Dr. M. Landeau and Prof. S.B. Dalziel',
     points: [
       'Experimental study of impact craters using yield-stress fluids',
