@@ -50,6 +50,12 @@
 			}
 		}
 
+		.icons {
+			color: _palette(fg-light);
+			margin-right: 1.5em;
+			margin-left: 1.5em
+		}
+
 		.links {
 			@include vendor('flex', '1');
 			border-left: solid 1px _palette(border);

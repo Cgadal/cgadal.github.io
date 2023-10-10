@@ -14,11 +14,6 @@ const data = [
     icon: faGithub,
   },
   {
-    link: 'https://www.linkedin.com/in/cyril-gadal-39037a214/',
-    label: 'LinkedIn',
-    icon: faLinkedinIn,
-  },
-  {
     link: 'https://twitter.com/CyrilGadal',
     label: 'Twitter',
     icon: faTwitter,
@@ -37,6 +32,11 @@ const data = [
     link: 'https://www.researchgate.net/profile/Cyril-Gadal',
     label: 'ResearchGate',
     icon: faResearchgate,
+  },
+  {
+    link: 'https://www.linkedin.com/in/cyril-gadal-39037a214/',
+    label: 'LinkedIn',
+    icon: faLinkedinIn,
   },
 ];
 
