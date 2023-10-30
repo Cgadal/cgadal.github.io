@@ -17,7 +17,7 @@ for video in list_video:
     if not os.path.isfile(thumb_path):
         cap = cv2.VideoCapture(video)
         nframe = int(cap.get(cv2.CAP_PROP_FRAME_COUNT))
-        i = int(0.5*nframe*np.random.random() + 0.25*nframe)
+        i = int(0.5 * nframe * np.random.random() + 0.25*nframe)
         #
         cmd = r'ffmpeg -i {} -vf "select=eq(n\,{})" -frames:v 1 {}'.format(video, i, thumb_path)
         # print(cmd)
