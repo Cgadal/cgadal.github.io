@@ -1,5 +1,8 @@
 const prizes = [
-
+  {
+    name: 'Newton international fellowship from the Royal Society',
+    year: '420 000 £, 2024-2026',
+  },
   {
     name: 'International mobility grant from Institut de Physique du Globe de Paris',
     year: '2750 €, 2019',

@@ -1,5 +1,12 @@
 const articles = [
-
+  {
+    title: 'Slumping regime in lock-release turbidity currents.',
+    date: 2022,
+    author_list: 'Gadal, C., Mercier, M. and Lacaze, L.',
+    journal: 'Journal of Fluid Mechanics',
+    ref: '974, A4',
+    doi: '10.1017/jfm.2023.762',
+  },
   {
     title: 'Local wind regime induced by giant linear dunes: comparison of ERA5-Land reanalysis with surface measurements.',
     date: 2022,

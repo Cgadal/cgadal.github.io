@@ -1,13 +1,23 @@
 const positions = [
   {
+    company: 'University of Manchester',
+    position: 'Newton international fellow',
+    link: 'https://www.maths.manchester.ac.uk/research/',
+    daterange: 'starting March 2023',
+    supervision: 'In collaboration with Pr. N. Gray and Dr. C. Johnson',
+    points: [
+      'Self organization of cohesive granular flows',
+    ],
+  },
+  {
     company: 'Institut de Mécanique des Fluides de Toulouse (IMFT)',
     position: 'Postdoctoral researcher',
     link: 'https://www.imft.fr/',
-    daterange: 'November 2021 - Present',
+    daterange: 'November 2021 - March 2023',
     supervision: 'In collaboration with Dr. M. Mercier and Dr. L. Lacaze',
     points: [
-      'Experimental study of turbidity currents in various configurations',
-      'Collaboration IMFT/LEGI/LEMTA/INRAE (ANR PALAGRAM)',
+      'Experimental study of riverbed clogging (OFB funded project)',
+      'Experimental study of turbidity currents in various configurations (ANR PALAGRAM - Collaboration IMFT/LEGI/LEMTA/INRAE)',
     ],
   },
   {

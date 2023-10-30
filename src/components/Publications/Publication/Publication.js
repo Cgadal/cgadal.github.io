@@ -5,7 +5,7 @@ const Publication = ({ data }) => (
   <article className="publication-container">
     <header>
       <h4 className="publication-name"><a className="link-container" href={`https://doi.org/${data.doi}`}>{data.title}</a></h4>
-      <p className="author_list">{data.author_list}, ({data.date})</p>
+      <p className="author_list">{data.author_list} ({data.date})</p>
       <p className="references">
         <i>{data.journal}</i>, {data.ref}, <a className="link-container" href={`https://doi.org/${data.doi}`}>doi:{data.doi}</a>
       </p>

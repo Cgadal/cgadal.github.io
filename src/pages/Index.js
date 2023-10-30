@@ -12,7 +12,7 @@ const Index = () => (
     <article className="post" id="index">
       <header>
         <div className="title">
-          <h2 data-testid="heading"><Link to="/">About this site</Link></h2>
+          <h2 data-testid="heading"><Link to="/">Welcome !</Link></h2>
         </div>
       </header>
       <p>I am a geophysicist, specialized in fluid dynamics and granular materials.
