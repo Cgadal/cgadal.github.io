@@ -14,11 +14,11 @@ const data = [
     _id: 'id_2',
   },
   {
-    src: '/videos/lock-release_current.mp4',
+    src: '/videos/ofb_particle_infiltration.mp4',
     type: 'video/mp4',
-    thumb: '/videos/thumbnails/lock-release_current.jpg',
-    description: '<h1>A lock-release turbidity current experiment.</h1>',
-    _id: 'id_4',
+    thumb: '/videos/thumbnails/ofb_particle_infiltration.jpg',
+    description: '<h1>Particle infiltrating a porous transparent bed by settling in a channel flow.</h1>',
+    _id: 'id_6',
   },
   {
     src: '/videos/stationnary_turbidity_current.mp4',
@@ -28,11 +28,18 @@ const data = [
     _id: 'id_5',
   },
   {
+    src: '/videos/lock-release_current.mp4',
+    type: 'video/mp4',
+    thumb: '/videos/thumbnails/lock-release_current.jpg',
+    description: '<h1>A lock-release turbidity current experiment.</h1>',
+    _id: 'id_4',
+  },
+  {
     src: '/images/projects/DunePanorama_small.jpg',
     type: 'img/jpg',
     thumb: '/images/thumbnails/DunePanorama_small.png',
     description: '<h1>Dunes gathering at the bottom of the Mazar Tagh (small mountain) in the Taklamacan desert, in China [<a className="link-container" href={http://www.ipgp.fr/~narteau/}>@ClémentNarteau</a>, <a className="link-container" href={https://www.instagram.com/morhix/}>@HugoMorel</a>]</h1>',
-    _id: 'id_6',
+    _id: 'id_7',
   },
   {
     src: '/images/gallery/Taklamacan_pink_sand.jpg',
@@ -46,7 +53,7 @@ const data = [
     type: 'img/jpg',
     thumb: '/images/thumbnails/Taklamacan_climbing_dunes.png',
     description: '<h1>Small dunes at the bottom of the Mazar Tagh (small mountain) in the Taklamacan desert, in China [<a className="link-container" href={http://www.ipgp.fr/~narteau/}>@ClémentNarteau</a>, <a className="link-container" href={https://www.instagram.com/morhix/}>@HugoMorel</a>]</h1>',
-    _id: 'id_7',
+    _id: 'id_9',
   },
 ];
 
