@@ -1,0 +1,46 @@
+/* import gallery styles */
+
+@import 'lightgallery/scss/lightgallery.scss';
+@import 'lightgallery/scss/lg-zoom.scss';
+@import 'lightgallery/scss/lg-thumbnail.scss';
+@import 'lightgallery/scss/lg-video.scss';
+
+
+h1,
+p {
+  font-family: Lato;
+  color: Gray;
+}
+
+body {
+  margin: 0;
+}
+
+// .gallery-item {
+//   margin: 5px;
+// }
+
+.masonry-lg {
+  margin: 0 auto;
+
+  &:after {
+    content: '';
+    display: block;
+    clear: both;
+  }
+
+  .grid-sizer,
+  .lg-item {
+    width: 33.33%;
+  }
+
+  .gallery-item {
+    float: left;
+    margin-bottom: 20px;
+  }
+
+  .gallery-item img {
+    display: block;
+    max-width: 100%;
+  }
+}

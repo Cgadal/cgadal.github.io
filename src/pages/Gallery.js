@@ -6,7 +6,6 @@ import lgZoom from 'lightgallery/plugins/zoom';
 import lgVideo from 'lightgallery/plugins/video';
 import lgThumbnail from 'lightgallery/plugins/thumbnail';
 
-import lgShare from 'lightgallery/plugins/share';
 import lgHash from 'lightgallery/plugins/hash';
 import Masonry from 'masonry-layout';
 import imagesLoaded from 'imagesloaded';
@@ -53,7 +52,7 @@ const Gallery = () => {
           </div>
         </header>
         <LightGallery
-          plugins={[lgZoom, lgVideo, lgThumbnail, lgShare, lgHash]}
+          plugins={[lgZoom, lgVideo, lgThumbnail, lgHash]}
           mode="lg-fade"
           elementClassNames="masonry-lg"
         >
@@ -70,7 +69,7 @@ const Gallery = () => {
                   data-sub-html={job.description}
                 >
                   <img
-                    style={{ maxWidth: '100%', width: '400px' }}
+                    style={{ maxWidth: '100%', width: '300px' }}
                     className="img-responsive"
                     alt=""
                     src={`${PUBLIC_URL}${job.thumb}`}
@@ -85,7 +84,7 @@ const Gallery = () => {
                 data-sub-html={job.description}
               >
                 <img
-                  style={{ maxWidth: '100%', width: '400px' }}
+                  style={{ maxWidth: '100%', width: '300px' }}
                   className="img-responsive"
                   alt=""
                   src={`${PUBLIC_URL}${job.thumb}`}
