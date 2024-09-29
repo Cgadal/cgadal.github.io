@@ -19,7 +19,7 @@ const Publications = () => (
     <article className="post" id="publications">
       <header>
         <div className="title">
-          <h2 data-testid="heading"><Link to="resume">PUBLICATIONS</Link></h2>
+          <h2><Link to="resume">PUBLICATIONS</Link></h2>
           <p>  </p>
         </div>
       </header>

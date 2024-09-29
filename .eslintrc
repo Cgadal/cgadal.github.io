@@ -1,37 +1,55 @@
 {
   "extends": "airbnb",
-  "parser": "babel-eslint",
+  "parser": "@babel/eslint-parser",
   "env": {
     "browser": true,
     "node": true,
     "jest": true
   },
   "rules": {
-    "max-len": "off",
     "jsx-a11y/anchor-is-valid": 0,
     "jsx-a11y/click-events-have-key-events": 0,
     "jsx-a11y/href-no-hash": "off",
     "jsx-a11y/no-static-element-interactions": 0,
     "jsx-a11y/media-has-caption": "off",
-    "no-template-curly-in-string": "off",
-    "no-unused-vars": 0,
-    "no-console": ["error", {
-      "allow": ["warn", "error", "info"]
-    }],
+    "no-console": [
+      "error",
+      {
+        "allow": [
+          "warn",
+          "error",
+          "info"
+        ]
+      }
+    ],
     "no-underscore-dangle": 0,
     "react/destructuring-assignment": 0,
-    "react/function-component-definition": [2, { "namedComponents": "arrow-function" }],
-    "react/jsx-filename-extension": [1, {
-      "extensions": [".js", ".jsx"]
-    }],
+    "react/function-component-definition": [
+      2,
+      {
+        "namedComponents": "arrow-function"
+      }
+    ],
+    "react/jsx-filename-extension": [
+      1,
+      {
+        "extensions": [
+          ".js",
+          ".jsx"
+        ]
+      }
+    ],
     "react/jsx-no-useless-fragment": 0,
     "react/jsx-one-expression-per-line": 0,
     "react/jsx-props-no-spreading": 0,
-    "react/jsx-wrap-multilines": [1, {
-      "declaration": true,
-      "assignment": true,
-      "return": true
-    }],
+    "react/jsx-wrap-multilines": [
+      1,
+      {
+        "declaration": true,
+        "assignment": true,
+        "return": true
+      }
+    ]
   },
   "plugins": [
     "react"
