@@ -17,11 +17,13 @@ const Cell = ({ data }) => (
           ))}
         </ul>
       </pex1>
-      <a href={data.link} className="image">
-        <img src={`${process.env.PUBLIC_URL}${data.image}`} alt={data.title} />
-      </a>
-      <div className="description">
-        <p>{data.desc}</p>
+      <div style={{ position: 'relative' }}>
+        <a href={data.link} className="image">
+          <img src={`${process.env.PUBLIC_URL}${data.image}`} alt={data.title} />
+        </a>
+        <div className="description">
+          <p>{data.desc}</p>
+        </div>
       </div>
     </article>
   </div>

@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 
 import Main from '../layouts/Main';
 
-import Cell from '../components/Projects/Cell';
+import ShortCell from '../components/Projects/ShortCell';
 import data from '../data/projects';
 
 const Projects = () => (
@@ -18,12 +18,14 @@ const Projects = () => (
           <p>An overview of my current research projects</p>
         </div>
       </header>
-      {data.map((project) => (
-        <Cell
-          data={project}
-          key={project.title}
-        />
-      ))}
+      <div className="minipost-container">
+        {data.map((project) => (
+          <ShortCell
+            data={project}
+            key={project.shorttitle}
+          />
+        ))}
+      </div>
     </article>
   </Main>
 );

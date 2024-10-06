@@ -2,6 +2,7 @@ import React, { Suspense, lazy } from 'react';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import Main from './layouts/Main'; // fallback for lazy pages
 import './static/css/main.scss'; // All of our styles
+import TurbidityProject from './pages/projects-pages/TurbidityProject';
 
 const { PUBLIC_URL } = process.env;
 
@@ -17,6 +18,9 @@ const Publications = lazy(() => import('./pages/Publications'));
 const Gallery = lazy(() => import('./pages/Gallery'));
 const Stats = lazy(() => import('./pages/Stats'));
 
+// project pages
+const DuneProject = lazy(() => import('./pages/projects-pages/DuneProject'));
+
 const App = () => (
   <BrowserRouter basename={PUBLIC_URL}>
     <Suspense fallback={<Main />}>
@@ -29,6 +33,9 @@ const App = () => (
         <Route path="/gallery" element={<Gallery />} />
         <Route path="/stats" element={<Stats />} />
         <Route path="*" element={<NotFound />} />
+
+        <Route path="/projects/dune" element={<DuneProject />} />
+        <Route path="/projects/turbidity" element={<TurbidityProject />} />
       </Routes>
     </Suspense>
   </BrowserRouter>
