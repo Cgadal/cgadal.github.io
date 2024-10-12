@@ -15,19 +15,16 @@ const Index = () => (
           <h2><Link to="/">Welcome !</Link></h2>
         </div>
       </header>
-      <p>I am a geophysicist, specialized in fluid dynamics and granular materials.
-        I use a combination of theory, laboratory experiments, numerical simulations and field
-        studies to understand the dynamics
-        of complex natural systems involving grains and/or fluids, such as dunes, turbidity
-        currents or planetary impact craters.
-        Currently, I am a postdoctoral researcher at the
-        <a href="https://www.imft.fr/"> Institut de Mécanique des Fluides de Toulouse </a>.
+      <p>I am a physicist, specialized in fluid dynamics and granular materials, and mostly
+        interested in environmental/natural systems. I use a combination of theory, laboratory
+        experiments, numerical simulations and field studies to understand the dynamics of
+        complex natural systems involving grains and/or fluids, such as dunes, avalanches, rivers
+        or turbidity currents.
       </p>
-      <p> I obtained my PhD in Geophysics in 2020
-        from <a href="https://u-paris.fr/en/">Université Paris Cité</a> and
-        <a href="https://www.ipgp.fr/fr"> Institut de physique du globe de Paris</a>,
-        and my Physics (fluid mechanics) and Earth Sciences master&#39;s degrees in 2017 from
-        the <a href="https://www.ens.psl.eu/en">Ecole Normale Supérieure of Paris</a>.
+      <p> Currently, I am a research fellow at the <a href="https://www.manchester.ac.uk/"> University of Manchester</a>.
+        Before, I used to be a PhD student at the
+        <a href="https://www.ipgp.fr/fr"> Institut de physique du globe de Paris</a> and then a
+        postdoctoral researcher at the <a href="https://www.imft.fr/"> Institut de Mécanique des Fluides de Toulouse </a>.
       </p>
       <ul className="actions">
         <li>
