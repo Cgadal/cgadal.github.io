@@ -11,6 +11,12 @@ import thesis from '../data/publications/thesis';
 import articles from '../data/publications/articles';
 import datasets from '../data/publications/datasets';
 
+const sections = [
+  'Articles -',
+  'Datasets -',
+  'Thesis',
+];
+
 const Publications = () => (
   <Main
     title="Publications"
@@ -21,6 +27,12 @@ const Publications = () => (
         <div className="title">
           <h2><Link to="resume">PUBLICATIONS</Link></h2>
           <p>  </p>
+          <div className="link-container" style={{ 'text-align': 'center' }}>
+            {sections.map((sec) => (
+              <h4 key={sec}>
+                <a href={`#${sec.toLowerCase()}`}>{sec}</a>
+              </h4>))}
+          </div>
         </div>
       </header>
       <Articles data={articles} />

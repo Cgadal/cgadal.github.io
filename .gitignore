@@ -1,3 +1,6 @@
+#vscode
+.vscode
+
 # prefer npm over yarn
 yarn.lock
 

@@ -11,9 +11,9 @@ const SideBar = () => (
       </Link>
       <header>
         <h2>Cyril Gadal</h2>
-        <p>Postdoctoral researcher</p>
-        <b style={{ text: 'lowercase', fontSize: '20px', color: '#1E90FF' }}>
-          Contact: <a href="mailto:cyril.gadal@imft.fr">cyril.gadal@imft.fr</a>
+        <p>Newton International Research Fellow</p>
+        <b style={{ text: 'lowercase', fontSize: '20px' }}>
+          <a href="mailto:cyril.gadal@manchester.ac.uk">cyril.gadal[at]manchester.ac.uk</a>
         </b>
       </header>
     </section>

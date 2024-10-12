@@ -35,15 +35,15 @@ const sections = [
 const Resume = () => (
   <Main
     title="CV"
-    description="Lisa Bugnet's Resume"
+    description="Cyril Gadal's Resume"
   >
     <article className="post" id="resume">
       <header>
         <div className="title">
           <h2><Link to="resume">CV</Link></h2>
-          <a href={`${PUBLIC_URL}/documents/CV_Cyril_Gadal.pdf`} className="download" download="CV_Cyril_Gadal">DOWNLOAD FULL CV</a>
+          <a href={`${PUBLIC_URL}/documents/CV_Cyril_Gadal.pdf`} className="download" download="CV_Cyril_Gadal">Click here to download</a>
           <p>  </p>
-          <div className="link-container">
+          <div className="link-container" style={{ 'text-align': 'center' }}>
             {sections.map((sec) => (
               <h4 key={sec}>
                 <a href={`#${sec.toLowerCase()}`}>{sec}</a>

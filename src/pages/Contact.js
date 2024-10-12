@@ -17,8 +17,7 @@ const Contact = () => (
       </header>
       <div className="email-at">
         <p>
-          Feel free to get in touch. You can email me at <a href="mailto:cyril.gadal@imft.fr">cyril.gadal@imft.fr</a>,
-          or directly message me on <a href="https://twitter.com/CyrilGadal">Twitter</a>.
+          Feel free to get in touch. You can email me at <a href="mailto:cyril.gadal@manchester.ac.uk">cyril.gadal[at]manchester.ac.uk</a>.
         </p>
       </div>
       <ContactIcons />

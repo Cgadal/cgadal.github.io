@@ -1,12 +1,13 @@
 const positions = [
   {
     company: 'University of Manchester',
-    position: 'Newton international fellow',
+    position: 'Newton international research fellow',
     link: 'https://www.maths.manchester.ac.uk/research/',
-    daterange: 'starting March 2023',
+    daterange: 'March 2023 - Now',
     supervision: 'In collaboration with Pr. N. Gray and Dr. C. Johnson',
     points: [
-      'Self organization of cohesive granular flows',
+      'Beyond "simple" descriptions of dense granular flows',
+      'Theory -- Experiments -- Numerical simulations',
     ],
   },
   {

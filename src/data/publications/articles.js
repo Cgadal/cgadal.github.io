@@ -1,7 +1,15 @@
 const articles = [
   {
+    title: 'Complementary classifications of aeolian dunes based on morphology, dynamics, and fluid mechanics.',
+    date: 2024,
+    author_list: 'Courrech Du Pont, S., Rubin, M.D., Narteau, C., [...] Gadal, C., [...] and Wiggs, G.F.S.',
+    journal: 'Earth-Science Reviews',
+    ref: '255, 104772',
+    doi: '10.1016/j.earscirev.2024.104772',
+  },
+  {
     title: 'Slumping regime in lock-release turbidity currents.',
-    date: 2022,
+    date: 2023,
     author_list: 'Gadal, C., Mercier, M. and Lacaze, L.',
     journal: 'Journal of Fluid Mechanics',
     ref: '974, A4',
