@@ -49,7 +49,9 @@
         "assignment": true,
         "return": true
       }
-    ]
+    ],
+    "react/react-in-jsx-scope": "off",
+    "react/no-unescaped-entities": "off"
   },
   "plugins": [
     "react"

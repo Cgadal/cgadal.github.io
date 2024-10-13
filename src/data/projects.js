@@ -28,6 +28,19 @@ const data = [
       'Focus on the influence of particle buoyancy',
     ],
   },
+  {
+    shorttitle: 'Complex systems, patterns and morphogenesis',
+    title: 'Spontaneous emergence of regular structures in complex systems.',
+    image: '/videos/thumbnails/manip_video.jpg',
+    date: '',
+    link: '/projects/pattern',
+    desc: 'Regular dune pattern emerging from a flat sand bed sheared by a turbulent flow.',
+    content: <span> Complex systems consist of many components that interacts among them. These systems can also be multi-scales, meaning that each component of the system can also be a whole new complex system. This, in addition to the large number of components and/or interactions, often makes it difficult to study such systems and predict their future. However, these system can also self-organize, leading to the emergence of regular structures. This emergence can not be understood/predicted from the isolated components of the system only, but directly results from their interactions. Some examples are waves (regular structures at the water surface), cristals (regular arrangment of atoms) or the 'rosette' spots of a jaguar. <br />As for me, I mainly focused on the self-organisatin of sand grains in various regular structures names "dunes". Their obiquity in many different environments (underwater, deserts, snow, Mars, ...) suggests some universality in the mechanisms that leads to the emergence of specific shapes and patterns. Currently, I am focusing on patterns emerging from dense granular flows (e.g. avalanches of rocks) in the presence of additional processes, as cohesion between the grains or the presence of different grain sizes. <br /><br /> If you want to know more, the websites <a href="https://complexityexplained.github.io/">#Complexityexplained </a> and <a href="https://www.complexity-explorables.org/">Complexity Explorables </a> gives explanations and toy models for a large number of systems.</span>,
+    points: [
+      'Isolating the mechanisms at the origin of pattern emergence',
+      'Coupling experiments, numerical simulations and mathematical modelling',
+    ],
+  },
 ];
 
 export default data;
