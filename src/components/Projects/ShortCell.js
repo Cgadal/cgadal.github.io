@@ -8,7 +8,7 @@ const ShortCell = ({ data }) => (
   <div className="cell-container" style={ShortCellStyle}>
     <article className="mini-post">
       <Link to={data.link} className="image">
-        <img src={`${process.env.PUBLIC_URL}${data.image}`} alt={data.shorttitle} />
+        <img src={`${process.env.PUBLIC_URL}${data.thumb}`} alt={data.shorttitle} />
       </Link>
       <header>
         <h3><Link to={data.link}>{data.shorttitle}</Link></h3>
@@ -22,6 +22,7 @@ ShortCell.propTypes = {
     shorttitle: PropTypes.string.isRequired,
     link: PropTypes.string,
     image: PropTypes.string.isRequired,
+    thumb: PropTypes.string.isRequired,
   }).isRequired,
 };
 
