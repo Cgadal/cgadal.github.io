@@ -1,2 +1,0 @@
-"use strict";(self.webpackChunkpersonal_site=self.webpackChunkpersonal_site||[]).push([[957],{6957:function(e,s,t){t.r(s);t(2791);var r=t(6842),a=t(2942),i=t(450),n=t(184),c=i.Z[0];s.default=function(){return(0,n.jsx)(r.Z,{title:"Research projects",description:"Learn about Cyril Gadal's projects.",children:(0,n.jsx)("article",{className:"post",id:"dune-project",children:(0,n.jsx)("div",{className:"minipost-container",children:(0,n.jsx)(a.Z,{data:c},c.shorttitle)})})})}}}]);
-//# sourceMappingURL=957.e434ed07.chunk.js.map
