@@ -41,7 +41,8 @@
     "rimraf": "^3.0.2",
     "masonry-layout": "^4.2.2",
     "imagesloaded": "^5.0.0",
-    "lightgallery": "^2.7.2"
+    "lightgallery": "^2.7.2",
+    "better-react-mathjax": "^2.0.3"
   },
   "devDependencies": {
     "react-snap": "^1.23.0",

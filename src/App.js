@@ -1,5 +1,6 @@
 import React, { Suspense, lazy } from 'react';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import { MathJaxContext } from 'better-react-mathjax';
 import Main from './layouts/Main'; // fallback for lazy pages
 import './static/css/main.scss'; // All of our styles
 
@@ -21,26 +22,30 @@ const Stats = lazy(() => import('./pages/Stats'));
 const DuneProject = lazy(() => import('./pages/projects-pages/DuneProject'));
 const TurbidityProject = lazy(() => import('./pages/projects-pages/TurbidityProject'));
 const PatternProject = lazy(() => import('./pages/projects-pages/PatternProject'));
+const GranularRheologyProject = lazy(() => import('./pages/projects-pages/GranularRheologyProject'));
 
 const App = () => (
-  <BrowserRouter basename={PUBLIC_URL}>
-    <Suspense fallback={<Main />}>
-      <Routes>
-        <Route path="/" element={<Index />} />
-        <Route path="/projects" element={<Projects />} />
-        <Route path="/contact" element={<Contact />} />
-        <Route path="/resume" element={<Resume />} />
-        <Route path="/publications" element={<Publications />} />
-        <Route path="/gallery" element={<Gallery />} />
-        <Route path="/stats" element={<Stats />} />
-        <Route path="*" element={<NotFound />} />
+  <MathJaxContext>
+    <BrowserRouter basename={PUBLIC_URL}>
+      <Suspense fallback={<Main />}>
+        <Routes>
+          <Route path="/" element={<Index />} />
+          <Route path="/projects" element={<Projects />} />
+          <Route path="/contact" element={<Contact />} />
+          <Route path="/resume" element={<Resume />} />
+          <Route path="/publications" element={<Publications />} />
+          <Route path="/gallery" element={<Gallery />} />
+          <Route path="/stats" element={<Stats />} />
+          <Route path="*" element={<NotFound />} />
 
-        <Route path="/projects/dune" element={<DuneProject />} />
-        <Route path="/projects/turbidity" element={<TurbidityProject />} />
-        <Route path="/projects/pattern" element={<PatternProject />} />
-      </Routes>
-    </Suspense>
-  </BrowserRouter>
+          <Route path="/projects/dune" element={<DuneProject />} />
+          <Route path="/projects/turbidity" element={<TurbidityProject />} />
+          <Route path="/projects/pattern" element={<PatternProject />} />
+          <Route path="/projects/granular_rhology" element={<GranularRheologyProject />} />
+        </Routes>
+      </Suspense>
+    </BrowserRouter>
+  </MathJaxContext>
 );
 
 export default App;
