@@ -16,7 +16,6 @@ const Projects = lazy(() => import('./pages/Projects'));
 const Resume = lazy(() => import('./pages/Resume'));
 const Publications = lazy(() => import('./pages/Publications'));
 const Gallery = lazy(() => import('./pages/Gallery'));
-const Stats = lazy(() => import('./pages/Stats'));
 
 // project pages
 const DuneProject = lazy(() => import('./pages/projects-pages/DuneProject'));
@@ -35,7 +34,6 @@ const App = () => (
           <Route path="/resume" element={<Resume />} />
           <Route path="/publications" element={<Publications />} />
           <Route path="/gallery" element={<Gallery />} />
-          <Route path="/stats" element={<Stats />} />
           <Route path="*" element={<NotFound />} />
 
           <Route path="/projects/dune" element={<DuneProject />} />

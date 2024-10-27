@@ -1,6 +1,5 @@
 import { faGithub } from '@fortawesome/free-brands-svg-icons/faGithub';
 import { faLinkedinIn } from '@fortawesome/free-brands-svg-icons/faLinkedinIn';
-import { faTwitter } from '@fortawesome/free-brands-svg-icons/faTwitter';
 import { faEnvelope } from '@fortawesome/free-regular-svg-icons/faEnvelope';
 import { faOrcid, faResearchgate } from '@fortawesome/free-brands-svg-icons';
 
@@ -14,12 +13,7 @@ const data = [
     icon: faGithub,
   },
   {
-    link: 'https://twitter.com/CyrilGadal',
-    label: 'Twitter',
-    icon: faTwitter,
-  },
-  {
-    link: 'cyril.gadal@imft.fr',
+    link: 'cyril.gadal@manchester.ac.uk',
     label: 'Email',
     icon: faEnvelope,
   },
